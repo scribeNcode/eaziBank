@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Header Section */
+
 header {
   height: 10vh;
   background-color: whitesmoke;
@@ -25,4 +27,30 @@ header {
 
 .hamburger-container {
   margin-right: 0;
+}
+
+/* Main Section */
+
+main {
+  position: relative;
+  z-index: -1;
+}
+
+.hero-section {
+  background-image: url("./assets/images/bg-intro-mobile.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.image-mockups-container {
+  background-image: url("./assets/images/image-mockups.png");
+  background-size: 90vw 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 75vh;
+  position: absolute;
+  top: -9rem;
 }
