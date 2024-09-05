@@ -99,20 +99,19 @@ main {
 /* Why choose us section */
 
 .why-us-section {
-  background-color: hsl(0, 0%, 98%);
-  margin-top: 4rem;
+  background: hsl(220, 16%, 96%);
+  margin-top: 7rem;
 }
 
 .card-icon {
   display: flex;
   justify-content: center;
   align-self: center;
-  margin-bottom: 1rem;
+  margin-bottom: -1rem;
 }
 
 .choose-us {
   width: 90%;
-  margin-bottom: 3rem;
 }
 
 .why-us-intro {
@@ -127,10 +126,77 @@ main {
 
 .card-text {
   font-weight: 200;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-align: center;
   margin-top: 1rem;
 }
+
+/* - Light Grayish Blue: hsl(220, 16%, 96%)
+- Very Light Gray: hsl(0, 0%, 98%) */
+
+.latest-article {
+  background-color: hsl(0, 0%, 98%);
+  font-weight: 200;
+}
+
+.latest-article h1 {
+  text-align: center;
+  /* padding-bottom: 1rem; */
+  color: black;
+}
+
+.latest-article-text {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.articles-card {
+  background: white;
+  margin-bottom: 2rem;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.last-why-us-text {
+  padding-bottom: 3rem;
+}
+
+/* Latest Articles Section */
+
+.article-title {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.latest-articles-text-box {
+  width: 90%;
+}
+
+.latest-article-image img {
+  height: 15rem;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.latest-articles-text-box {
+  width: 80%;
+}
+
+.article-autor {
+  color: hsl(233, 8%, 62%);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* color: ; */
+}
+
+.latest-article-heading {
+  font-size: 1rem;
+  padding: 0;
+  text-align: justify;
+}
+
 /* ## Colors
 
 ### Primary
