@@ -38,6 +38,10 @@ header {
   margin-right: 0;
 }
 
+#closeIcon {
+  display: none;
+}
+
 /* Main Section */
 
 main {
