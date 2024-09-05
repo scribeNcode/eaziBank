@@ -197,6 +197,53 @@ main {
   text-align: justify;
 }
 
+.footer-wrapper {
+  background: hsl(233, 26%, 24%);
+}
+
+/* Footer section */
+
+footer {
+  background-color: hsl(233, 26%, 24%);
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.socialslogo {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1.4rem;
+}
+
+.linksdiv ul {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.rights-reserved {
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
 /* ## Colors
 
 ### Primary
